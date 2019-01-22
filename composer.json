@@ -1,0 +1,22 @@
+{
+
+	"name": "marcelogaldino/ecommerce",
+	"authors": [
+		{
+
+			"name": "Marcelo Galdino",
+			"email":"n1lojaecommerce@gmail.com"
+		}
+	],
+	"require": {
+		"phpmailer/phpmailer":"5.2.22",
+		"slim/slim":"2.0",
+		"rain/raintpl":"3.0.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"": "vendor\\marcelogaldino\\php-classes\\src"
+		}
+
+	}
+}
