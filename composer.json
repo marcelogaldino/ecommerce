@@ -15,7 +15,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"": "vendor\\marcelogaldino\\php-classes\\src"
+			"Marcelo\\": "vendor\\marcelogaldino\\php-classes\\src"
 		}
 
 	}
