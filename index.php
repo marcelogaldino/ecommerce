@@ -4,6 +4,7 @@ require_once("vendor/autoload.php");
 
 use \Slim\Slim;
 use \Marcelo\Page;
+use \Marcelo\PageAdmin;
 
 $app = new Slim();
 
@@ -15,14 +16,13 @@ $app->get('/', function() {
 	
 	$page->setTpl("index");
 
-/*
-	$sql = new 	Marcelo\DB\Sql();
+});
 
-	$results = $sql->select("SELECT * FROM tb_users");
+$app->get('/admin', function() {
 
-	echo json_encode($results);
-*/
-//echo "OK";
+	$page = new PageAdmin();
+	
+	$page->setTpl("index");
 
 });
 
